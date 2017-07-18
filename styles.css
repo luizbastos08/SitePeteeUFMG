@@ -61,9 +61,14 @@ a img{
 }
 
 
-.android-logo-image {
+.android-logo-image-top {
   height: 50px;
-  width: 120px;
+  width: 150px;
+}
+
+.android-logo-image-left {
+  height: 90px;
+  width: 140px;
 }
 
 
@@ -165,10 +170,10 @@ a img{
     height: 160px;
   }
 
-    .android-drawer .android-logo-image {
+    .android-drawer .android-logo-image-left {
       position: absolute;
       bottom: 16px;
-      right: 70px;
+      right: 55px;
     }
 
 .android-be-together-section {
@@ -176,7 +181,7 @@ a img{
   height: 890px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/teste.jpg') center 165% no-repeat;
+  background: url('images/capa.jpg') center 100% no-repeat;
   background-size: 100% 100%;
 }
 
