@@ -52,8 +52,8 @@ a img{
   right: 20%;
   bottom: -26px;
   z-index: 3;
-  background: #64ffda !important;
-  color: black !important;
+  background: #64ffda  !important;
+  color: black!important
 }
 
 .android-mobile-title {
@@ -178,7 +178,7 @@ a img{
 
 .android-be-together-section {
   position: relative;
-  height: 890px;
+  height: 800px;
   width: auto;
   background-color: #f3f3f3;
   background: url('images/capa.jpg') center 100% no-repeat;
@@ -351,14 +351,14 @@ a img{
 .android-alt-link {
   text-decoration: none;
   color: #64ffda !important;
-  font-size: 16px;
+  font-size: 20px;
 }
 
-  .android-alt-link:hover {
+  .android-alt-link:hover{
     color: #00bfa5 !important;
   }
 
-  .android-alt-link .material-icons {
+  .android-alt-link .material-icons{
     position: relative;
     top: 6px;
   }
@@ -482,7 +482,7 @@ a img{
 }
 
   .android-footer a:hover {
-    color: #8bc34a;
+   color: #8bc34a;
   }
 
   .android-footer .mdl-mega-footer--top-section::after {
@@ -515,6 +515,10 @@ a img{
 /** Adicionais **/
 .list-item {
   width: 900px;
+}
+
+.img-circle {
+  border-radius: 50%;
 }
 
 
