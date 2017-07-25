@@ -213,9 +213,15 @@ a img{
     font-weight: 300;
   }
 
-.android-screen-section {
+.petee-contato {
   position: relative;
   padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.petee-contato-title {
   padding-bottom: 80px;
 }
 
@@ -329,8 +335,9 @@ a img{
   color: white;
 }
 
-  .android-wear-band-text p {
-    padding-top: 8px;
+  .topicos{
+    padding-top: 63px;
+    padding-bottom: 63px;
   }
 
 .android-link {
@@ -391,10 +398,11 @@ a img{
   margin-right: auto;
 }
 
-  .android-more-section .android-section-title {
+.android-section-title {
     margin-left: 12px;
-    padding-bottom: 24px;
-  }
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
 
 .android-card-container-cora {
   width:650px;
@@ -437,16 +445,29 @@ a img{
   }
 
 .android-card-container {
-  width: 310px;
+  width: 317px;
 }
+
+
 
   .android-card-container .mdl-card__media {
     overflow: hidden;
     background: transparent;
   }
 
+  .android-card-container .mdl-card__media-manual {
+    overflow: hidden;
+    background: transparent;
+    height: 350px;
+  }
+
     .android-card-container .mdl-card__media img {
       width: 100%;
+    }
+
+    .android-card-container .mdl-card__media-manual img {
+      width: 100%;
+      height: 100%;
     }
 
 
@@ -521,7 +542,77 @@ a img{
   border-radius: 50%;
 }
 
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
 
+.contato-section {
+  padding: 60px;
+}
+
+.info {
+  padding-top: 80px;
+}
+
+.petee-about-section {
+  padding-bottom: 80px;
+  padding-right: 80px;
+}
+
+.petee-section-processo-seletivo {
+  background: #242a33;
+  background-size: cover;
+  color: #fff;
+  padding-top: 70px;
+}
+
+#services {
+  padding: 100px 0 75px;
+}
+
+.media.service-box {
+  margin: 25px 0;
+}
+
+.media.service-box .pull-left {
+  margin-right: 20px;
+}
+
+.media.service-box .pull-left > i {
+  font-size: 24px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  width: 64px;
+  border-radius: 100%;
+  color: #0D47A1;
+  box-shadow: inset 0 0 0 1px #d7d7d7;
+  -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+  transition: background-color 400ms, background-color 400ms;
+  position: relative;
+}
+.media.service-box .pull-left > i:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  right: -10px;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  background: #0D47A1;
+}
+.media.service-box:hover .pull-left > i {
+  background-image: -moz-linear-gradient(90deg, #0D47A1 0%, #0D47A1 100%);
+  background-image: -webkit-linear-gradient(90deg, #0D47A1 0%, #0D47A1 100%);
+  background-image: -ms-linear-gradient(90deg, #0D47A1 0%, #0D47A1 100%);
+  color: #fff;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
+}
 
 
 /**** Mobile layout ****/
@@ -593,7 +684,7 @@ a img{
 
   .android-wear-band-text {
     margin-left: 0;
-    padding: 16px;
+    padding: 10px;
   }
 
   .android-footer .mdl-mega-footer--bottom-section {

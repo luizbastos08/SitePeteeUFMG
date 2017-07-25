@@ -28,9 +28,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
     <style>
     #view-source {
       position: fixed;
@@ -57,9 +64,6 @@
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
           <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
-            </label>
             <div class="mdl-textfield__expandable-holder">
               <input class="mdl-textfield__input" type="text" id="search-field">
             </div>
@@ -67,7 +71,7 @@
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#top">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#about">O que é o PET?</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#atividades">Atividades</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#grupo">O grupo</a>
@@ -84,7 +88,7 @@
           <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
         </span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="#top">Home</a>
+          <a class="mdl-navigation__link" href="index.html">Home</a>
           <a class="mdl-navigation__link" href="#about">O que é o PET?</a>
           <a class="mdl-navigation__link" href="#grupo">O grupo</a>
           <a class="mdl-navigation__link" href="#atividades">Atividades</a>
@@ -120,30 +124,30 @@ pesquisa e extensão e da educação tutorial.
               </p>
               <p>
                  <ul class="list-item mdl-list">
-                  <li class="mdl-list__item mdl-list__item--three-line">
+                  <li class="topicos mdl-list__item mdl-list__item--three-line">
                     <span class="mdl-list__item-primary-content">
-                      <i class="android-alt-link material-icons mdl-list__item-avatar">school</i>
+                      <i class="android-alt-link material-icons mdl-list__item-avatar">book</i>
                       <span class="mdl-typography--font-light android-alt-link">Ensino</span>
                       <span class="mdl-list__item-text-body mdl-color-text--grey-300 mdl-typography--font-light">
-                        As atividades extra-curriculares que compõem o Programa têm como objetivo garantir a formação global do aluno, procurando atender plenamente as necessidades do próprio curso de graduação e/ou ampliar e aprofundar os objetivos e os conteúdos programáticos que integram sua grade curricular.
+                        <p>As atividades extra-curriculares que compõem o Programa têm como objetivo garantir a formação global do aluno, procurando atender plenamente as necessidades do próprio curso de graduação e/ou ampliar e aprofundar os objetivos e os conteúdos programáticos que integram sua grade curricular.</p>
                       </span>
                     </span>
                   </li>
-                  <li class="mdl-list__item mdl-list__item--three-line">
+                  <li class="topicos mdl-list__item mdl-list__item--three-line">
                     <span class="mdl-list__item-primary-content">
                       <i class="android-alt-link material-icons  mdl-list__item-avatar">lightbulb_outline</i>
                       <span class="mdl-typography--font-light android-alt-link">Pesquisa</span>
                       <span class="mdl-list__item-text-body mdl-typography--font-light mdl-color-text--grey-300 mdl-typography--font-light">
-                        As atividades de pesquisa desenvolvidas pelos petianos têm como objetivo garantir a formação não só teórica, mas também prática, do aluno, de modo a oferecer a oportunidade de aprender novos conteúdos e já se familiarizar com o ambiente de pesquisa científica.
+                        <p>As atividades de pesquisa desenvolvidas pelos petianos têm como objetivo garantir a formação não só teórica, mas também prática, do aluno, de modo a oferecer a oportunidade de aprender novos conteúdos e já se familiarizar com o ambiente de pesquisa científica.</p>
                       </span>
                     </span>
                   </li>
-                  <li class="mdl-list__item mdl-list__item--three-line">
+                  <li class="topicos mdl-list__item mdl-list__item--three-line">
                     <span class="mdl-list__item-primary-content">
                       <i class="android-alt-link material-icons  mdl-list__item-avatar">people</i>
                       <span class="mdl-typography--font-light android-alt-link">Extensão</span>
                       <span class="mdl-list__item-text-body mdl-typography--font-light mdl-color-text--grey-300 mdl-typography--font-light">
-                        Vivenciar o processo ensino-aprendizagem além dos limites da sala de aula, com a possibilidade de articular a universidade às diversas organizações da sociedade, numa enriquecedora troca de conhecimentos e experiências. 
+                        <p>Vivenciar o processo ensino-aprendizagem além dos limites da sala de aula, com a possibilidade de articular a universidade às diversas organizações da sociedade, numa enriquecedora troca de conhecimentos e experiências.</p> 
                       </span>
                     </span>
                   </li>
@@ -152,6 +156,91 @@ pesquisa e extensão e da educação tutorial.
             </div>
           </div>
         </div>
+
+
+        <section id="services" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Proposta</h2>
+                <p class="mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">O Grupo PET Engenharia Elétrica da Universidade Federal de Minas Gerais (PETEE UFMG) 
+        pretende melhorar o ensino de graduação através de várias atividades</p>
+            </div>
+
+            <div class="row align-items-start">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media service-box">
+
+                            <div class="pull-left">
+                                <i class="material-icons">show_chart</i>
+                                <!-- <img src="images/chart-areaspline.png"> -->
+                            </div>
+                            <div class="media-body">
+                                <p class="mdl-typography--font-light mdl-typography--subhead mdl-typography--text-center">Realizar seminários e palestras sobre temas atuais e relevantes, o que oferece aos alunos um ambiente para adquirir novos conhecimentos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="material-icons">build</i>
+                            </div>
+                            <div class="media-body">
+                                <p class="mdl-typography--font-light mdl-typography--subhead mdl-typography--text-center">Estruturar o programa em áreas multidisciplinares do conhecimento.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                   
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="material-icons">pie_chart</i>
+                            </div>
+                            <div class="media-body">
+                                <p class="mdl-typography--font-light mdl-typography--subhead mdl-typography--text-center">Fazer dos petianos agentes disseminadores de novas idéias e práticas no campo de atuação da engenharia junto à comunidade estudantil.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+              
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="material-icons">school</i>
+                            </div>
+                            <div class="media-body">
+                                <p class="mdl-typography--font-light mdl-typography--subhead mdl-typography--text-center">Realizar atividades extra-classe que permitam a interação dos alunos PETEE UFMG com o corpo docente e discente da instituição.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                    
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="material-icons">search</i>
+                            </div>
+                            <div class="media-body">
+                                <p class="mdl-typography--font-light mdl-typography--subhead mdl-typography--text-center">O Petiano tem espaço para participação de projetos de pesquisa seja dentro do PETEE UFMG ou externamente, com a ajuda de um professor orientador.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                    
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="material-icons">extension</i>
+                            </div>
+                            <div class="media-body">
+                                <p class="mdl-typography--font-light mdl-typography--subhead mdl-typography--text-center">Incentivar a aplicação dos conhecimentos teóricos adquiridos em sala de aula pelos alunos da UFMG, através de atividades como a CoRA e Oficinas.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->
 
         
 
@@ -187,7 +276,7 @@ pesquisa e extensão e da educação tutorial.
                 <span class="mdl-typography--font-light mdl-typography--subhead">Um espaço para aprender e construir os seus própios robôs gratuitamente.</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="http://www.cpdee.ufmg.br/~petee/atividades/oficina_seguidor_linha.html">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="oficina_seguidor_linha.html">
                    Saiba mais
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -205,7 +294,7 @@ pesquisa e extensão e da educação tutorial.
                 <span class="mdl-typography--font-light mdl-typography--subhead">MATLAB é um software interativo de alta performace voltado ao cálculo numérico.</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="http://www.cpdee.ufmg.br/~petee/atividades/matlab.html">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="matlab.html">
                    Saiba mais
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -223,7 +312,7 @@ pesquisa e extensão e da educação tutorial.
                 <span class="mdl-typography--font-light mdl-typography--subhead">LaTeX é um conjunto de macros para o software de diagramação de textos TeX.</span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="http://www.cpdee.ufmg.br/~petee/atividades/latex.html">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="latex.html">
                    Saiba mais
                    <i class="material-icons">chevron_right</i>
                  </a>
@@ -231,8 +320,8 @@ pesquisa e extensão e da educação tutorial.
             </div>
 
             <div class="android-card-container mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/logo_manual.jpg">
+              <div class="mdl-card__media-manual">
+                <img src="images/logo_manual_oficial.png">
               </div>
               <div class="mdl-card__title">
                  <h4 class="mdl-card__title-text">Manual da Engenharia Elétrica da UFMG</h4>
@@ -251,68 +340,53 @@ pesquisa e extensão e da educação tutorial.
         </div>
 
 
-        <div class="android-screen-section mdl-typography--text-center">
-          <div id="grupo" class="mdl-typography--display-1-color-contrast">O grupo</div>
-          <div class="android-screens">
-            <div class="android-wear android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/wear-silver-on.png">
-                <img class="android-screen-image" src="images/wear-black-on.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
-            </div>
-            <div class="android-phone android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus6-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
-            </div>
-            <div class="android-tablet android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus9-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
-            </div>
-            <div class="android-tv android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/tv-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
-            </div>
-            <div class="android-auto android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/auto-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
-            </div>
+
+
+        <section id="grupo">
+          <div class="container petee-about-section mdl-typography--text-center">
+
+              <div class="section-header">
+                  <h2 class="android-section-title mdl-typography--text-center mdl-typography--display-1-color-contrast">O Grupo</h2>
+                  <!-- <p class="text-center wow fadeInDown"> Insira um Texto</p> -->
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-6 wow fadeInLeft">
+                      <h3 class="column-title mdl-typography--font-light mdl-typography--display-1-color-contrast">Vídeo Institucional</h3>
+                      <!-- 16:9 aspect ratio -->
+                      <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/DtSfZY2ubnI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6 wow fadeInRight">
+                      <h3 class="column-title mdl-typography--font-light mdl-typography--display-1-color-contrast">PET Engenharia Elétrica UFMG</h3>
+            <p class="mdl-typography--font-light mdl-typography--subhead"> Destinado a grupos de alunos que demonstrem potencial, interesse e habilidades destacadas no curso de Engenhria Elétrica, 
+            o nosso PET é integrado por grupos tutoriais de aprendizagem que busca propiciar aos alunos, sob
+            a orientação de um professor tutor, condições para a realização de atividades extracurriculares que complementem a sua 
+            formação acadêmica. </p>
+            
+                      <h3 class="column-title mdl-typography--font-light mdl-typography--display-1-color-contrast">Como Participar?</h3>
+                      <p class="mdl-typography--font-light mdl-typography--subhead">Para tornar-se membro do PET Engenharia Elétrica UFMG como bolsista, o estudante deve ser aprovado em um processo seletivo realizado 
+                      conforme edital publicado. É possível também a participação de estudantes no programa como voluntários, sendo necessária uma aprovação do grupo atual.</p>
+
+                      <a  href="#processoseletivo">
+                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Saiba mais
+                      </button></a>
+
+                  </div>
+              </div>
           </div>
-        </div>
+        </section><!--/#about-->
 
-
-
-        
-        
-
-        <div class="android-customized-section">
-          <div class="android-customized-section-text">
-            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-            <p class="mdl-typography--font-light">
-              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-              <br>
-              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
-            </p>
-          </div>
-          <div class="android-customized-section-image"></div>
-        </div>
-
-
-        <section id="testimonial">
+        <<!-- section id="testimonial">
           <div class="container">
               <div class="row">
                   <div class="col-sm-8 col-sm-offset-2">
 
-                      <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
-                          <!-- Wrapper for slides -->
+                      <div id="carousel-testimonial" class="carousel slide mdl-typography--text-center" data-ride="carousel">
+                          <!-- Wrapper for slides 
                           <div class="carousel-inner" role="listbox">
                               <div class="item active">
                                   <p><img class="img-circle img-thumbnail" src="images/membros/tutor.jpg" width="88" height="88" alt=""></p>
@@ -455,7 +529,7 @@ pesquisa e extensão e da educação tutorial.
                               </div>
                           </div>
 
-                          <!-- Controls -->
+                          <!-- Controls
                           <div class="btns">
                               <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
                                   <span class="fa fa-angle-left" aria-hidden="true"></span>
@@ -470,67 +544,133 @@ pesquisa e extensão e da educação tutorial.
                   </div>
               </div>
           </div>
+        </section> -->
+
+
+
+
+        <section id="processoseletivo">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Processo Seletivo</h2>
+                </div>
+            </div>
+        </section>
+      
+        <section class="petee-section-processo-seletivo">
+            <div class="container">
+          
+                <div class="mdl-typography--text-center">
+                    <h2 class="mdl-typography--font-light"> DESEJA SER UM MEMBRO DO PETEE UFMG?</h2>
+                    <p class="mdl-typography--font-light mdl-typography--subhead">Se você é um estudante de Engenharia Elétrica na UFMG e deseja fazer parte do PETEE, participe do nosso processo seletivo.</p>
+                     <a  href="processo_seletivo.html">
+                      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Inscreva-se
+                      </button></a>
+                    <img class="img-responsive wow fadeIn" src="images/back_ps.png" >
+                </div>
+            </div>
         </section>
 
 
-        
-
-
 
         
-
+        <section id="contato">
+          <div class="container">
+              <div class="section-header">
+                  <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Entre em Contato</h2>
+                  <!-- <p class="text-center wow fadeInDown"> insira um texto </p> -->
+              </div>
+          </div>
+        </section><!--/#get-in-touch-->
         
-        <footer class="android-footer mdl-mega-footer">
-          <div class="mdl-mega-footer--top-section">
-            <div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
+
+        <!--Section: Contact-->
+        <section id="contac">
+            <div class="contato-section row">
+                <!--First column-->
+                <div class="col-md-8">
+                   
+                    <!--Map container-->
+                    <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 500px"></div>
+
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-4 info">
+                    <ul class="mdl-typography--text-center">
+                        <li><i class="material-icons" style="font-size: 50px">place</i>
+                            <p class="mdl-typography--font-light mdl-typography--subhead">Av. Presidente Antônio Carlos, Nº 6627 - Pampulha - Belo Horizonte - MG <br>
+                                  Escola de Engenharia - Bloco 3 - Sala 1050 <br>
+                                           CEP: 31270-901</p>
+                        </li>
+
+                        <li><i class="material-icons" style="font-size: 50px">contact_phone</i>
+                            <p class="mdl-typography--font-light mdl-typography--subhead">(31) 3409-1013</p>
+                        </li>
+
+                        <li><i class="material-icons" style="font-size: 50px">contact_mail</i>
+                            <p class="mdl-typography--font-light mdl-typography--subhead">petee.ufmg@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--/Second column-->
             </div>
-            <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="#top">
-                Back to Top
-                <i class="material-icons">expand_less</i>
-              </a>
-            </div>
-          </div>
+        </section>
+        </div>
+        <!--Section: Contact-->
+        
 
-          <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
-          </div>
-
-          <div class="mdl-mega-footer--bottom-section">
-            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
-              Versions
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-              <li class="mdl-menu__item">5.0 Lollipop</li>
-              <li class="mdl-menu__item">4.4 KitKat</li>
-              <li class="mdl-menu__item">4.3 Jelly Bean</li>
-              <li class="mdl-menu__item">Android History</li>
+        
+      <!-- MDL Mini Footer Container-->
+        <!-- <footer class="mdl-mini-footer">
+          
+          <!-- MDL Footer left Section
+          <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">&copy; 2017 PETEE UFMG</div>
+            <!-- MDL Footer link-list 
+            <ul class="mdl-mini-footer__link-list">
+                <li><a href="https://www.facebook.com/peteeUFMG?ref=ts&fref=ts"><img src="images/facebook.png"></a></li>
+                <li><a href="https://www.instagram.com/petee.ufmg/"><img src="images/instagram.png"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCwyWA8kHfFoJq6nnlEeC3xw"><img src="images/youtube-play.png"></a></li>
             </ul>
-            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
-              For Developers
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-              <li class="mdl-menu__item">App developer resources</li>
-              <li class="mdl-menu__item">Android Open Source Project</li>
-              <li class="mdl-menu__item">Android SDK</li>
-              <li class="mdl-menu__item">Android for Work</li>
-            </ul>
-            <a class="android-link mdl-typography--font-light" href="">Blog</a>
-            <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
           </div>
-
-        </footer>
+        </footer> -->
       </div>
-    </div>
+      </div>
+
+
+
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    <!--Google Maps-->
+    <script src="https://maps.google.com/maps/api/js"></script>
+    <script>
+        function init_map() {
+            var var_location = new google.maps.LatLng(-19.869668, -43.963219);
+
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 15
+            };
+
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "New York"
+            });
+
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+
+            var_marker.setMap(var_map);
+
+        }
+
+        google.maps.event.addDomListener(window, 'load', init_map);
+  </script>
     
     
   </body>
