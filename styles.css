@@ -324,11 +324,11 @@ a img{
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #37474f;
+  background-color: #242a33;
 }
 
 .android-wear-band-text {
-  max-width: 800px;
+  max-width: 1100px;
   margin-left: 25%;
   padding: 24px;
   text-align: left;
@@ -684,7 +684,7 @@ a img{
 
   .android-wear-band-text {
     margin-left: 0;
-    padding: 10px;
+    padding: 0px;
   }
 
   .android-footer .mdl-mega-footer--bottom-section {
