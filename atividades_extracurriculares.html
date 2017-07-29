@@ -1,0 +1,441 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site oficial do Programa de Educação Tutorial da UFMG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>PETEE UFMG</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style> 
+    <link rel="shortcut icon" href="images/logo_manual_oficial.png">   
+  </head>
+
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image-top" src="images/logo_vertical_antiga.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+           <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="manual_eletrica.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="curriculo_interativo.html">Currículo Interativo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Integralizacao.html">Integralização</a>
+              
+              <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                <li class="mdl-menu__item">Matrícula</li>
+                <li class="mdl-menu__item" href="">Comprovação de Estudos</li>
+                <li class="mdl-menu__item" href="">Intercâmbio</li>
+                <li class="mdl-menu__item" href="">Monitoria/IC/Estágio</li>
+                <li class="mdl-menu__item" href="">Aproveitamento de estudos</li>
+                <li class="mdl-menu__item" href="">Trancamento</li>
+                <li class="mdl-menu__item" href="">Seção de Ensino</li>
+                <li class="mdl-menu__item" href="">FUMP/CEU</li>
+                <li class="mdl-menu__item" href="">Eventos</li>
+                <li class="mdl-menu__item" href="">Carteirinha de Estudante</li>
+                <li class="mdl-menu__item" href="">Contato Professores</li>
+                <li disabled class="mdl-menu__item" href="">Salas</li>
+                <li disabled class="mdl-menu__item" href="">Mapas</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="manual_eletrica.html">Home</a>
+          <a class="mdl-navigation__link" href="curriculo_interativo.html">Currículo Interativo</a>
+          <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
+          <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+          <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
+          <a class="mdl-navigation__link" href="Integralizacao.html">Integralização</a>
+          <a class="mdl-navigation__link" href="">Matrícula</a>
+          <a class="mdl-navigation__link" href="">Comprovação de Estudos</a>
+          <a class="mdl-navigation__link" href="">Intercâmbio</a>
+          <a class="mdl-navigation__link" href="">Monitoria/IC/Estágio</a>
+          <a class="mdl-navigation__link" href="">Aproveitamento de Estudos</a>
+          <a class="mdl-navigation__link" href="">Trancamento</a>
+          <a class="mdl-navigation__link" href="">Seção de Ensino</a>
+          <a class="mdl-navigation__link" href="">FUMP/CEU</a>
+          <a class="mdl-navigation__link" href="">Eventos</a>
+          <a class="mdl-navigation__link" href="">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="">Contato Professores</a>
+        </nav>
+      </div>
+
+      <div class="manual-content mdl-layout__content">
+        
+        
+        <section id="disciplinas" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Atividades Extracurriculares</h2>
+                <h3 class="mdl-typography--text-left  mdl-typography--subheading-1">Disciplinas Optativas, Eletivas e Obrigatórias</h3>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">No curso de Engenharia Elétrica da UFMG existem três modalidades de disciplinas
+                  que o aluno pode cursar que são as disciplinas obrigatórias, eletivas e optativas. </p>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                  Abaixo é explicada a diferença entre cada uma delas.
+                </p>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Disciplinas Obrigatórias</h3>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                As disciplinas obrigatórias são as matérias que o aluno deve necessariamente cursar para poder se formar em Engenharia Elétrica. </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                No percurso atual (D-20161), são no total 48 disciplinas que somam 168 créditos. Estão incluídas nessa lista as matérias do ciclo básico (ICEx), do ciclo profissionalizante (na Escola de Engenharia), 2 disciplinas de ciências  humanas, além do TCC e do estágio, que também são obrigatórios. </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Cabe ressaltar que o curso de engenharia elétrica possui vários certificados que possuem suas matérias obrigatórias e que não estão incluídas nesta tabela.
+              </p>
+            </div>
+
+
+            <div style="padding-top: 40px;">
+              <h3 class="mdl-typography--text-center  mdl-typography--subhead-color-contrast" style="font-size: 20px; padding-bottom: 20px;">Quadro de disciplinas obrigatórias</h3>
+              <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" sty style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">1º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">DCC003 - Algoritmos e Estruturas de Dados I</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EEE001 - Introdução à Engenharia Elétrica</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EEEnn1 - Introdução ao Projeto de Engenharia</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS054 - Introdução a Física Experimental</p>
+                  <P class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">MAT001 - Cálculo Diferencial e Integral I</P>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">MAT038 - Geometria Analítica e Álgebra Linear</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">2º Período</p>
+                </div>
+
+                <div class=" manual-materias-table col-md-6 col-sm-8">
+                  <P class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">DCC004 - Algoritmos e Estruturas de Dados II</P>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">DCC033 - Análise Numérica</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FCH001 - Formação em Ciências Humanas I</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS060 - Física Experimental EO</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS065 - Fundamentos de Mecânica</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS066 - Fundamentos de Termodinâmica</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">MAT039 - Cálculo Diferencial e Integral II</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">3º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELEnn1 - Análise de Circuitos Elétricos I</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn1 - Sistemas Digitais</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EQM044 - Fenômenos de Transporte</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS069 - Fundamentos de Eletromagnetismo</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">MAT002 - Cálculo Diferencial e Integral III</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">MAT015 - Equações Diferenciais A</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">4º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE028 - Laboratório de Circuitos Elétricos I</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELEnn2 - Análise de Circuitos Elétricos II</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELT029 - Laboratório de Sistemas Digitais</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELT032 - Análise de Sistemas Lineares</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EST045 - Probabilidade e Processos Estocásticos</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS086 - Fundamentos de Oscilações, Ondas e Óptica</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">MAT016 - Equações Diferenciais B</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">5º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE001 - Eletromagnetismo</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE031 - Laboratório de Circuitos Elétricos II</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE066 - Análise de Circuitos Elétricos III</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELT005 - Sistemas Processadores e Periféricos</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELT035 - Controle de Sistemas Lineares</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn2 - Dispositivos e Circuitos Eletrônicos Básicos</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FIS088 - Fundamentos de Física Quântica</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">6º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE029 - Sistemas de Medição</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE032 - Teoria dos Materiais</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE033 - Circuitos Polifásicos e Magnéticos</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE034 - Conversão da Energia</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn3 - Laboratório de Circuitos Eletrônicos I</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn4 - Circuitos Eletrônicos Básicos</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn5 - Teoria das Comunicações</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">7º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE035 - Laboratório de Conversão de Energia</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELE042 - Processamentos de Sinais</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn6 - Laboratório de Circuitos Eletrõnicos II</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">ELTnn7 - Laboratório de Comunicações</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">8º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">FCH002 - Formação em Ciências Humanas II</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">9º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EEEnn2 - Trabalho de Conclusão de Curso I</p>
+                </div>
+              </div>
+
+               <div class="manual-cell-table row">
+                <div class="col-md-6 col-sm-8" style="border-right: 1px dashed rgba(0,0,0,0.23);">
+                  <p class="manual-periodos-table manual-text-info mdl-typography--text-center mdl-typography--font-light mdl-typography--subhead-color-contrast">10º Período</p>
+                </div>
+
+                <div class="manual-materias-table col-md-6 col-sm-8">
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EEEnn3 - Trabalho de Conclusão de Curso II</p>
+                  <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">EEEnn4 - Estágio Curricular</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Disciplinas Optativas</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Já as disciplinas optativas são disciplinas que também podem ser cursadas à livre escolha do aluno, mas que estão previstas no currículo do curso e geralmente possuem como pré-requisito disciplinas obrigatórias da elétrica.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"><a href="http://www.eletrica.eng.ufmg.br/Docs/Matriz_Curricular_Eng_Eletrica_UFMG.pdf">Quadro de disciplinas optativas</a></p>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Disciplinas Eletivas (Formação Livre)</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Disciplinas eletivas são disciplinas que podem ser cursadas à livre escolha do aluno e que <b style="font-size: 110%;">não</b> estão previstas no currículo da engenharia elétrica da UFMG, e que não exigem pré-requisito.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Caso o aluno queira cursar disciplinas de outros cursos da UFMG que não estão na matriz curricular da engenharia elétrica, o aluno deve solicitar a matrícula em disciplinas eletivas, obedecendo os prazos do calendário de matrículas da UFMG, essas matérias serão aproveitadas como carga horária de formação livre.
+              </p>
+            </div>
+
+            <div class="manual-table-mdl">
+            <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Quadro de *créditos exigidos para cada tipo de displina</h2>
+              <table class="mdl-typography--font-light mdl-typography--subhead mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Tipo de Disciplina</th>
+                    <th>Créditos Exigidos Mínimos</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Disciplinas Obrigatórias</td>
+                    <td>149</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Certificado de Estudos</td>
+                    <td>38</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Obrigatórias</td>
+                    <td>8 a 14</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Optativas</td>
+                    <td>24 a 30</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Formação Geral</td>
+                    <td>35</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Formação em Ciências Humanas</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Formação Livre</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Gestão de Projetos Tecnológicos</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Trabalho de Conclusão de Curso</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Estágio Curricular</td>
+                    <td>13</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                *Cada crédito equivale a 15 horas de aula.
+              </p>
+            </div>
+
+            <div class="manual-table-mdl">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Quadro de créditos exigidos por certificados de estudos</h2>
+              <table class="mdl-typography--font-light mdl-typography--subhead mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Certificado de Estudos</th>
+                    <th>Disciplinas Obrigatórias</th>
+                    <th>Disciplinas Optativas</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Controle de Processos</td>
+                    <td>11</td>
+                    <td>27</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Computação</td>
+                    <td>8</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Eletrônica de Potência</td>
+                    <td>14</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Sistemas de Energia Elétrica</td>
+                    <td>8</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Telecomunicações</td>
+                    <td>8</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Certificado Aberto*</td>
+                    <td>Variável</td>
+                    <td>Variável</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                *O certificado aberto deve ser tratado particularmente com o tutor do certificado e o colegiado do curso.
+              </p>
+            </div>
+
+
+
+
+
+           
+    </section><!--/#about-->
+        
+
+        
+        </div>
+        <!--Section: Contact-->
+      </div>
+      </div>
+
+
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    
+    
+  </body>
+</html>

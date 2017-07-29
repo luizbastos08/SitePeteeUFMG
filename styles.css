@@ -615,6 +615,91 @@ a img{
 }
 
 
+#manual-section-header {
+  background: #242a33;
+  background-size: cover;
+  color: white;
+  padding-top: 20px;
+}
+
+.manual-text-info {
+  text-indent: 2em;
+  font-size: 120%;
+}
+
+.manual-content {
+
+}
+
+/********** Disciplinas do Manual CSS ********/
+
+.manual-cell-table {
+  background: #fff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+}
+
+.manual-periodos-table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.manual-materias-table {
+  padding-top: 20px;
+}
+
+.manual-table-mdl {
+  padding-top: 60px;
+}
+
+
+
+
+/********** Currículo Interativo CSS ********/
+
+#curriculo {
+  padding-left: 60px;
+}
+
+.curriculo-botao {
+  padding-top: 20px;
+
+}
+
+.curriculo-botao-primeiro-click {
+  padding-top: 20px;
+  color: indigo;
+}
+
+.mdl-button--accent{
+  white-space: wrap;
+  width: 130px;
+  height: 40px;
+}
+.mdl-button--colored{
+  white-space: wrap;
+  width: 130px;
+  height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .android-navigation-container {
