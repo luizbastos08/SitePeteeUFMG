@@ -1,0 +1,216 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site oficial do Programa de Educação Tutorial da UFMG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>PETEE UFMG</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style> 
+    <link rel="shortcut icon" href="images/logo_manual_oficial.png">   
+  </head>
+
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image-top" src="images/logo_vertical_antiga.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+           <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="manual_eletrica.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="curriculo_interativo.html">Currículo Interativo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="integralizacao.html">Integralização</a>
+              
+              <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                <li class="mdl-menu__item">Matrícula</li>
+                <li class="mdl-menu__item" href="">Comprovação de Estudos</li>
+                <li class="mdl-menu__item" href="">Intercâmbio</li>
+                <li class="mdl-menu__item" href="">Monitoria/IC/Estágio</li>
+                <li class="mdl-menu__item" href="">Aproveitamento de estudos</li>
+                <li class="mdl-menu__item" href="">Trancamento</li>
+                <li class="mdl-menu__item" href="">Seção de Ensino</li>
+                <li class="mdl-menu__item" href="">FUMP/CEU</li>
+                <li class="mdl-menu__item" href="">Eventos</li>
+                <li class="mdl-menu__item" href="">Carteirinha de Estudante</li>
+                <li class="mdl-menu__item" href="">Contato Professores</li>
+                <li disabled class="mdl-menu__item" href="">Salas</li>
+                <li disabled class="mdl-menu__item" href="">Mapas</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="manual_eletrica.html">Home</a>
+          <a class="mdl-navigation__link" href="curriculo_interativo.html">Currículo Interativo</a>
+          <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
+          <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+          <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
+          <a class="mdl-navigation__link" href="integralizacao.html">Integralização</a>
+          <a class="mdl-navigation__link" href="">Matrícula</a>
+          <a class="mdl-navigation__link" href="">Comprovação de Estudos</a>
+          <a class="mdl-navigation__link" href="">Intercâmbio</a>
+          <a class="mdl-navigation__link" href="">Monitoria/IC/Estágio</a>
+          <a class="mdl-navigation__link" href="">Aproveitamento de Estudos</a>
+          <a class="mdl-navigation__link" href="">Trancamento</a>
+          <a class="mdl-navigation__link" href="">Seção de Ensino</a>
+          <a class="mdl-navigation__link" href="">FUMP/CEU</a>
+          <a class="mdl-navigation__link" href="">Eventos</a>
+          <a class="mdl-navigation__link" href="">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="">Contato Professores</a>
+        </nav>
+      </div>
+
+      <div class="manual-content mdl-layout__content">
+        
+        
+        <section id="disciplinas" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Eventos</h2>
+            </div>
+
+            <div style="padding-top: 40px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Ruptura</h3>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                A Ruptura é uma feira cuja programação é composta por startups, palestras e cases sobre desenvolvimento de ideias, gameshow e bootcamp (treinamento no formato de competição). </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Feito por estudantes para estudantes, o evento reúne convidados que trilharam caminhos “fora do padrão” e apresentam maneiras inusitadas e se pensar a carreira acadêmica e profissional.</p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Se quiser saber mais sobre o evento, acesse a página do Ruptura no Facebook:
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"><a href="https://www.facebook.com/pg/ruptura.ufmg/">facebook.com/pg/ruptura.ufmg/</a></p>
+            </div>
+             
+            
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>ExpoEng</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                A Expo Engenharia é uma mostra que reúne projetos – entre associações estudantis, empresas juniores, equipes de competição, projetos de extensão e instituições de representação estudantil– que envolvem os alunos da Escola de Engenharia.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Entre as iniciativas são apresentadas em mesas montadas no hall do bloco 3 do prédio, estão as equipes de competição Uai, sô! Fly!, da Engenharia Aeroespacial, Baja UFMG, da Engenharia Mecânica, Autobotz, de robótica, PET-Engenharia Elétrica e o projeto de extensão Equalizar, cursinho oferecido a jovens da Região Metropolitana de Belo Horizonte.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Além da exposição dos projetos, o evento conta com palestras no auditório principal e nas salas de seminário.
+              </p>
+              
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Mercado & Conexão</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">A Mercado em Conexão é uma feira de recrutamento realizada pelas empresas juniores de engenharia e gestão da UFMG. Seu intuito é promover o contato dos alunos da universidade com grandes empresas ainda antes de se formar. Durante sua realização, as empresas se apresentam em estandes e divulgam seus processos de estágios e trainees.  Informações sobre empresas participantes ou programação do evento podem ser encontradas no site <a href="http://mercadoemconexao.com.br/">mercadoemconexao.com</a>
+              </p>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>CoRA</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Idealizada pelos integrantes do grupo PET - Engenharia Elétrica - UFMG e seus parceiros, a competição teve sua primeira edição realizada em agosto de 2014, e encontra-se em sua 3ª edição com o objetivo de incentivar os alunos da graduação e do ensino médio e técnico a aplicar seus conhecimentos adquiridos em sala de aula na construção de robôs autônomos. As equipes ficam encarregadas de construir um robô seguidor de linha capaz de superar os desafios propostos e atender às restrições do regulamento.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Para participar da competição as equipes interessadas podem ter até três membros regularmente matriculados em qualquer instituição de ensino médio, técnico ou superior. Mais informações estão disponíveis no site <a href = "http://cora.cpdee.ufmg.br/">http://cora.cpdee.ufmg.br</a> ou no Facebook da competição <a href="https://www.facebook.com/UFMGcora">https://www.facebook.com/UFMGcora</a>. </p>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Campeonato da Elétrica</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Incentivado pela Atlética e o Grêmio da Elétrica, a Engenharia Elétrica semestralmente promove o Campeonato da Elétrica, que consiste em um campeonato de futsal. A princípio ocorre uma pré-seleção para a estruturação dos grupos. Posteriormente acontece a fase de grupos, selecionando os dois melhores times do grupo e depois uma sequência de eliminatórias, até se estabelecer o time vencedor.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> A participação no campeonato pode ser feita por quaisquer alunos da Elétrica UFMG que queira participar, homens e mulheres, desde que possuam um time. Sendo assim, o Campeonato é uma ótima oportunidade de integração e socialização com os alunos do curso. </p>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>S2E</h2>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> A Semana de Engenharia Elétrica (S2E) traz para os estudantes do curso uma semana de visitas técnicas, palestras, oficinas, minicursos e mesas redondas, todas relacionadas às diversas áreas que a Engenharia Elétrica abrange, e que permitem que os alunos tenham uma visão mais ampla em relação ao curso e às suas aplicações.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Para saber mais, acesse a página da S2E no Facebook: <a href = "https://www.facebook.com/S2EUFMG/">facebook.com/S2EUFMG/</a></p>
+            </div>
+
+            
+
+
+
+           
+    </section><!--/#about-->
+        
+
+        
+        </div>
+        <!--Section: Contact-->
+      </div>
+      </div>
+
+
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    
+    
+  </body>
+</html>

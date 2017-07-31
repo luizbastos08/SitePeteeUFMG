@@ -38,6 +38,8 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <script type='text/javascript' src='js/jquery.particleground.js'></script>
+    <script type='text/javascript' src='js/demo.js'></script>
     <style>
     #view-source {
       position: fixed;
@@ -114,7 +116,7 @@
           </a>
         </div>
         
-        <div class="android-wear-section">
+        <div id="particles" class="android-wear-section">
           <div id="about" class="android-wear-band">
             <div class="android-wear-band-text">
               <div class="mdl-typography--display-2 mdl-typography--font-thin mdl-typography--text-center">O que é PET?</div>
@@ -388,171 +390,210 @@ pesquisa e extensão e da educação tutorial.
           </div>
         </section><!--/#about-->
 
-        <<!-- section id="testimonial">
-          <div class="container">
+        <section id="testimonial">
+            <div class="container">
               <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
+                  <div class="petee-membros-col col-md-3">
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/tutor.jpg" width="100", width="100" style="border-radius: 60px; margin-right: 30px;">
+                          <h2 class="mdl-card__title-text">Victor Flores</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Tutor
+                        </div>
+                      </div>
 
-                      <div id="carousel-testimonial" class="carousel slide mdl-typography--text-center" data-ride="carousel">
-                          <!-- Wrapper for slides 
-                          <div class="carousel-inner" role="listbox">
-                              <div class="item active">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/tutor.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Victor Flores Mendes</h4>
-                                  <small>Tutor</small>
-                                  <p>Departamento de Engenharia Elétrica - DEE - UFMG</p>
-                              </div>                    
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Amanda.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>Amanda Alkmim</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Caio.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>Caio Lanza</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Maradona.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>Diego Maradona</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Eduardo.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>Eduardo Villani</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Eduardo.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Eduardo Villani</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
 
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Guedes.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Felipe Guedes</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Lisboa.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Felipe Lisboa</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Iago.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>Iago Conceição</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Ingrid.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Ingrid Novaes</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Istivan.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Istiván Dénes</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Joao.jpg" width="88" height="88" alt=""></p>
-                                  <h4>João Pedro</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>        
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Guedes.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Felipe Guedes</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
 
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Daros.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Leandro Daros</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>              
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Chaves.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Lucas Chaves</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Luisa.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Luísa Reis</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>  
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Luiz.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Luiz Bastos</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/MateusSimoes.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Mateus Simões</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Tiago.png" width="88" height="88" alt=""></p>
-                                  <h4>Tiago Mitraud</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Biajo.jpg" width="88" height="88" alt=""></p>
-                                  <h4>Vitor Biajo</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/Vitor.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>Vitor Gabriel</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                
-                <div class="item">
-                                  <p><img class="img-circle img-thumbnail" src="images/membros/William.jpg" width="88" height="88"  alt=""></p>
-                                  <h4>William Braga</h4>
-                                  <small>Membro</small>
-                                  <p><br></p>
-                              </div>
-                          </div>
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Lisboa.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Felipe Lisboa</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
 
-                          <!-- Controls
-                          <div class="btns">
-                              <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
-                                  <span class="fa fa-angle-left" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                              </a>
-                              <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next">
-                                  <span class="fa fa-angle-right" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                              </a>
-                          </div>
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Iago.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Iago Conceição</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="petee-membros-col col-md-3">
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Istivan.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">István Dénes</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="width: 300px;">
+                          <img src="images/membros/Joao.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">João Pedro</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Daros.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Leandro Daros</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Chaves.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Lucas Chaves</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="width: 300px;">
+                          <img src="images/membros/Luisa.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Luísa Reis</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="petee-membros-col col-md-3">
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="width: 300px;">
+                          <img src="images/membros/Luiz.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Luiz Bastos</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/MateusSimoes.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Mateus Simões</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Biajo.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Vitor Biajo</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand" style="width: 300px;">
+                          <img src="images/membros/Vitor.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Vitor Gabriel</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/William.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">William Braga</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="petee-membros-col col-md-3">
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Maradona.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Diego Maradona</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Amanda.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Amanda Alkmin</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Caio.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Caio Lanza</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
+                      </div>
+
+                      <div class="petee-card-square mdl-card mdl-shadow--2dp">
+                        <div class="mdl-card__title mdl-card--expand">
+                          <img src="images/membros/Ingrid.jpg" width="100", width="100" style="border-radius: 60px;">
+                          <h2 class="mdl-card__title-text">Ingrid Novaes</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          Membro
+                        </div>
                       </div>
                   </div>
               </div>
-          </div>
-        </section> -->
+            </div>
+       </section>
 
 
 

@@ -38,6 +38,8 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <script type='text/javascript' src='js/jquery.particleground.js'></script>
+    <script type='text/javascript' src='js/demo_manual.js'></script>
     <style>
     #view-source {
       position: fixed;
@@ -76,7 +78,7 @@
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Integralizacao.html">Integralização</a>
+              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Integralizacao.html">Integralização</a> -->
               
               <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
                 <i class="material-icons">more_vert</i>
@@ -90,9 +92,9 @@
                 <li class="mdl-menu__item" href="">Trancamento</li>
                 <li class="mdl-menu__item" href="">Seção de Ensino</li>
                 <li class="mdl-menu__item" href="">FUMP/CEU</li>
-                <li class="mdl-menu__item" href="">Eventos</li>
-                <li class="mdl-menu__item" href="">Carteirinha de Estudante</li>
-                <li class="mdl-menu__item" href="">Contato Professores</li>
+                <li class="mdl-menu__item" href="eventos.html">Eventos</li>
+                <li class="mdl-menu__item" href="carteiraestudante.html">Carteirinha de Estudante</li>
+                <li class="mdl-menu__item" href="contatoprof.html">Contato Professores</li>
                 <li disabled class="mdl-menu__item" href="">Salas</li>
                 <li disabled class="mdl-menu__item" href="">Mapas</li>
               </ul>
@@ -111,7 +113,7 @@
           <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
           <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
           <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
-          <a class="mdl-navigation__link" href="integralizacao.html">Integralização</a>
+          <!-- <a class="mdl-navigation__link" href="integralizacao.html">Integralização</a> -->
           <a class="mdl-navigation__link" href="">Matrícula</a>
           <a class="mdl-navigation__link" href="">Comprovação de Estudos</a>
           <a class="mdl-navigation__link" href="">Intercâmbio</a>
@@ -120,9 +122,9 @@
           <a class="mdl-navigation__link" href="">Trancamento</a>
           <a class="mdl-navigation__link" href="">Seção de Ensino</a>
           <a class="mdl-navigation__link" href="">FUMP/CEU</a>
-          <a class="mdl-navigation__link" href="">Eventos</a>
-          <a class="mdl-navigation__link" href="">Carteirinha de Estudante</a>
-          <a class="mdl-navigation__link" href="">Contato Professores</a>
+          <a class="mdl-navigation__link" href="eventos.html">Eventos</a>
+          <a class="mdl-navigation__link" href="carteiraestudante.html">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="contatoprof.html">Contato Professores</a>
         </nav>
       </div>
 
@@ -130,10 +132,9 @@
         <div class=" mdl-typography--text-center smoothScroll">
         
         <section id="manual-section-header">
-        <div class="container">
-
-            <div class="android-section-header">
-                <img src="images/logo_manual_oficial.png" width="45%", height="45%" style="padding: 40px; border-radius: 1200%;">
+        <div id="particles">
+            <div id="intro" class="container">
+                <img src="images/logo_manual_oficial.png" width="30%", height="30%" style="padding: 40px; border-radius: 1200%;">
                 <h3 class="android-section-title mdl-typography--text-center  mdl-typography--title"> SEJA BEM-VINDO CALOURO!</h3> 
                 <p class="android-section-title mdl-typography--text-center  mdl-typography--subhead">Nós, do Programa de Educação Tutorial da 
                 Engenharia Elétrica – PETEE estamos aqui para te parabenizar pela aprovação no vestibular. Fizemos este guia para te acompanhar durante todo curso, um pequeno 
@@ -143,6 +144,97 @@
         </div>
         </section>
 
+
+        <section id="topicos-manual">
+          <div class="container">
+            <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Seções do Manual</h2>
+
+            <ul class="demo-list-item mdl-list">
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="curriculo_interativo.html"><i class="material-icons">keyboard_arrow_right</i>Currículo Interativo</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="disciplinas.html"><i class="material-icons">keyboard_arrow_right</i>Disciplinas</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="atividades_extracurriculares.html"><i class="material-icons">keyboard_arrow_right</i>Atividades Extracurriculares</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="certificados.html"><i class="material-icons">keyboard_arrow_right</i>Certificados</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Matrícula</a>
+                </span>
+              </li>
+              <!-- <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="integralizacao.html"><i class="material-icons">keyboard_arrow_right</i>Integralização</a>
+                </span>
+              </li> -->
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Comprovação de Estudos</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Intercâmbio</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Monitoria/IC/Estágio</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Aproveitamento de Estudos</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Trancamento</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>Seção de Ensino</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href=""><i class="material-icons">keyboard_arrow_right</i>FUMP/CEU</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="eventos.html"><i class="material-icons">keyboard_arrow_right</i>Eventos</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="carteiraestudante.html"><i class="material-icons">keyboard_arrow_right</i>Carteirinha de Estudante</a>
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  <a class="mdl-typography--font-light mdl-typography--subhead-color-contrast" style="font-size: 120%;" href="contatoprof.html"><i class="material-icons">keyboard_arrow_right</i>Contato Professores</a>
+                </span>
+              </li>
+            </ul>
+
+            
+          </div>
+        </section>
 
 
 

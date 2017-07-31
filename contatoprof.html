@@ -1,0 +1,617 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site oficial do Programa de Educação Tutorial da UFMG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>PETEE UFMG</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style> 
+    <link rel="shortcut icon" href="images/logo_manual_oficial.png">   
+  </head>
+
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image-top" src="images/logo_vertical_antiga.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+           <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="manual_eletrica.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="curriculo_interativo.html">Currículo Interativo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="integralizacao.html">Integralização</a>
+              
+              <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                <li class="mdl-menu__item">Matrícula</li>
+                <li class="mdl-menu__item" href="">Comprovação de Estudos</li>
+                <li class="mdl-menu__item" href="">Intercâmbio</li>
+                <li class="mdl-menu__item" href="">Monitoria/IC/Estágio</li>
+                <li class="mdl-menu__item" href="">Aproveitamento de estudos</li>
+                <li class="mdl-menu__item" href="">Trancamento</li>
+                <li class="mdl-menu__item" href="">Seção de Ensino</li>
+                <li class="mdl-menu__item" href="">FUMP/CEU</li>
+                <li class="mdl-menu__item" href="">Eventos</li>
+                <li class="mdl-menu__item" href="">Carteirinha de Estudante</li>
+                <li class="mdl-menu__item" href="">Contato Professores</li>
+                <li disabled class="mdl-menu__item" href="">Salas</li>
+                <li disabled class="mdl-menu__item" href="">Mapas</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="manual_eletrica.html">Home</a>
+          <a class="mdl-navigation__link" href="curriculo_interativo.html">Currículo Interativo</a>
+          <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
+          <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+          <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
+          <a class="mdl-navigation__link" href="integralizacao.html">Integralização</a>
+          <a class="mdl-navigation__link" href="">Matrícula</a>
+          <a class="mdl-navigation__link" href="">Comprovação de Estudos</a>
+          <a class="mdl-navigation__link" href="">Intercâmbio</a>
+          <a class="mdl-navigation__link" href="">Monitoria/IC/Estágio</a>
+          <a class="mdl-navigation__link" href="">Aproveitamento de Estudos</a>
+          <a class="mdl-navigation__link" href="">Trancamento</a>
+          <a class="mdl-navigation__link" href="">Seção de Ensino</a>
+          <a class="mdl-navigation__link" href="">FUMP/CEU</a>
+          <a class="mdl-navigation__link" href="">Eventos</a>
+          <a class="mdl-navigation__link" href="">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="">Contato Professores</a>
+        </nav>
+      </div>
+
+      <div class="manual-content mdl-layout__content">
+        
+        
+        <section id="disciplinas" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Contatos Professores</h2>
+            </div>
+
+            <div class="manual-table-mdl">
+
+              <table class="mdl-typography--font-light mdl-typography--subhead mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Professor do DEE</th>
+                    <th class="mdl-data-table__cell--non-numeric">Contato</th>
+                    <th>Sala</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Alberto Resende de Conti</td>
+                    <td class="mdl-data-table__cell--non-numeric">conti@cpdee.ufmg.br</td>
+                    <td>2103</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Alessandro Fernandes Moreira</td>
+                    <td class="mdl-data-table__cell--non-numeric">moreira@cpdee.ufmg.br</td>
+                    <td>2221</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Ana Liddy Cenni de C. Magalhães</td>
+                    <td class="mdl-data-table__cell--non-numeric">analiddy@gmail.com</td>
+                    <td>2526</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Braz de Jesus Cardoso Filho</td>
+                    <td class="mdl-data-table__cell--non-numeric">cardosob@ufmg.br</td>
+                    <td>2220</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Bruno Vilhena Adorno</td>
+                    <td class="mdl-data-table__cell--non-numeric">adorno@cpdee.ufmg.br</td>
+                    <td>2112</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Carlos Andrey Maia</td>
+                    <td class="mdl-data-table__cell--non-numeric">maia@cpdee.ufmg.br</td>
+                    <td>2115</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Clever Sebastião Pereira Filho</td>
+                    <td class="mdl-data-table__cell--non-numeric">clever@cpdee.ufmg.br</td>
+                    <td>LRC</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Cristiano Leite de Castro</td>
+                    <td class="mdl-data-table__cell--non-numeric">crislcastro@gmail.com</td>
+                    <td>2126</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Danilo Barbosa Melges</td>
+                    <td class="mdl-data-table__cell--non-numeric">danilomelges@ufmg.br</td>
+                    <td>2114</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Danilo Iglesias Brandão</td>
+                    <td class="mdl-data-table__cell--non-numeric">daniloiglesiasb@yahoo.com.br</td>
+                    <td>2218</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Davies William de Lima Monteiro</td>
+                    <td class="mdl-data-table__cell--non-numeric">davies@cpdee.ufmg.br</td>
+                    <td>2129</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Diógenes Cecílio da Silva Júnior</td>
+                    <td class="mdl-data-table__cell--non-numeric">diogenes@cpdee.ufmg.br</td>
+                    <td>2121</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Eduardo Gontijo Carrano</td>
+                    <td class="mdl-data-table__cell--non-numeric">carrano@cpdee.ufmg.br</td>
+                    <td>2218</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Eduardo Nohme Cardoso</td>
+                    <td class="mdl-data-table__cell--non-numeric">nohme@cpdee.ufmg.br</td>
+                    <td>2102</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Elson José da Silva</td>
+                    <td class="mdl-data-table__cell--non-numeric">elson@cpdee.ufmg.br</td>
+                    <td>2122</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Felipe Campelo França Pinto</td>
+                    <td class="mdl-data-table__cell--non-numeric">fcampelo@cpdee.ufmg.br</td>
+                    <td>2225</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Fernando Henrique Silveira</td>
+                    <td class="mdl-data-table__cell--non-numeric">silveira@cpdee.ufmg.br</td>
+                    <td>2110</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Flávio Hara</td>
+                    <td class="mdl-data-table__cell--non-numeric">fhara@dee.ufmg.br</td>
+                    <td>2119</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Flávio Henrique Vasconcelos</td>
+                    <td class="mdl-data-table__cell--non-numeric">fvasc@cpdee.ufmg.br</td>
+                    <td>2116</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Frederico Gadelha Guimarães</td>
+                    <td class="mdl-data-table__cell--non-numeric">fredericoguimaraes@ufmg.br</td>
+                    <td>2223</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Glássio Costa de Miranda</td>
+                    <td class="mdl-data-table__cell--non-numeric">glassio@cpdee.ufmg.br</td>
+                    <td>2100</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Guilherme Augusto S. Pereira</td>
+                    <td class="mdl-data-table__cell--non-numeric">gpereira@ufmg.br</td>
+                    <td>2117</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Helder de Paula</td>
+                    <td class="mdl-data-table__cell--non-numeric">helder@cpdee.ufmg.br</td>
+                    <td>2224</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Henrique Resende Martins</td>
+                    <td class="mdl-data-table__cell--non-numeric">henriquerm@gmail.com</td>
+                    <td>2113</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Hilton de Oliveira Mota</td>
+                    <td class="mdl-data-table__cell--non-numeric">hilton@cpdee.ufmg.br</td>
+                    <td>2111</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Homero Nogueira Guimarães</td>
+                    <td class="mdl-data-table__cell--non-numeric">hng@cpdee.ufmg.br</td>
+                    <td>2118</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Ivan José da Silva Lopes</td>
+                    <td class="mdl-data-table__cell--non-numeric">ivan@cpdee.ufmg.br</td>
+                    <td>2105</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Jaime Arturo Ramírez</td>
+                    <td class="mdl-data-table__cell--non-numeric">jramirez@ufmg.br</td>
+                    <td>2125</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">João Antônio de Vasconcelos</td>
+                    <td class="mdl-data-table__cell--non-numeric">vasconcelos.joao.antonio@gmail.com</td>
+                    <td>2108</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">José Osvaldo Saldanha Paulino</td>
+                    <td class="mdl-data-table__cell--non-numeric">josvaldo@cpdee.ufmg.br</td>
+                    <td>2127</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Lucas de Souza Batista</td>
+                    <td class="mdl-data-table__cell--non-numeric">lusoba@cpdee.ufmg.br</td>
+                    <td>2222</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Luciana Pedrosa Sales</td>
+                    <td class="mdl-data-table__cell--non-numeric">luciana@cpdee.ufmg.br</td>
+                    <td>2526</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Luiz Guilherme Costa Melo</td>
+                    <td class="mdl-data-table__cell--non-numeric">lmelo@cpdee.ufmg.br</td>
+                    <td>2130</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Manuel Losada y Gonzalez</td>
+                    <td class="mdl-data-table__cell--non-numeric">manuel@cpdee.ufmg.br</td>
+                    <td>2120</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Maria Helena Murta Vale</td>
+                    <td class="mdl-data-table__cell--non-numeric">mhelena@cpdee.ufmg.br</td>
+                    <td>LRC</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Paulo F. Monteiro Palmeira</td>
+                    <td class="mdl-data-table__cell--non-numeric">palmeira@cpdee.ufmg.br</td>
+                    <td>2109</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Raquel Aparecida Freitas Mini</td>
+                    <td class="mdl-data-table__cell--non-numeric">raquelmini@ufmg.br</td>
+                    <td>2526</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Renato Cardoso Mesquita</td>
+                    <td class="mdl-data-table__cell--non-numeric">renato@cpdee.ufmg.br</td>
+                    <td>2123</td>  
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Ricardo Luiz da Silva Adriano</td>
+                    <td class="mdl-data-table__cell--non-numeric">rluiz@cpdee.ufmg.br</td>
+                    <td>2226</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Rodney Rezende Saldanha</td>
+                    <td class="mdl-data-table__cell--non-numeric">rodney@cpdee.ufmg.br</td>
+                    <td>2124</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Sidelmo Magalhães Silva</td>
+                    <td class="mdl-data-table__cell--non-numeric">sidelmo@ufmg.br</td>
+                    <td>2219</td>  
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Silvério Visacro Filho</td>
+                    <td class="mdl-data-table__cell--non-numeric">visacro@cpdee.ufmg.br</td>
+                    <td>LRC</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Victor Flores Mendes</td>
+                    <td class="mdl-data-table__cell--non-numeric">victormendes@cpdee.ufmg.br</td>
+                    <td>2104</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Wadaed Uturbey da Costa</td>
+                    <td class="mdl-data-table__cell--non-numeric">wadaed@cpdee.ufmg.br</td>
+                    <td>2128</td>  
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Wallace do Couto Boaventura</td>
+                    <td class="mdl-data-table__cell--non-numeric">wventura@cpdee.ufmg.br</td>
+                    <td>2107</td>  
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="manual-table-mdl">
+              <table class="mdl-typography--font-light mdl-typography--subhead mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Professor do DELT</th>
+                    <th class="mdl-data-table__cell--non-numeric">Contato</th>
+                    <th>Sala</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Adriano Vilela Barbosa</td>
+                    <td class="mdl-data-table__cell--non-numeric">vilela@cpdee.ufmg.br</td>
+                    <td>2615</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Alessandro Beda</td>
+                    <td class="mdl-data-table__cell--non-numeric">beda@ufmg.br</td>
+                    <td>2613</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Alexandre Rodrigues Mesquita</td>
+                    <td class="mdl-data-table__cell--non-numeric">amesquita@cpdee.ufmg.br</td>
+                    <td>2600</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">André Paim Lemos</td>
+                    <td class="mdl-data-table__cell--non-numeric">andrepl@cpdee.ufmg.br</td>
+                    <td>2603</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Antônio de Padua Braga</td>
+                    <td class="mdl-data-table__cell--non-numeric">apbraga@cpdee.ufmg.br</td>
+                    <td>2612</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Armando Alves Neto</td>
+                    <td class="mdl-data-table__cell--non-numeric">aaneto@cpdee.ufmg.br</td>
+                    <td>2404</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Bruno Otávio Soares Teixeira</td>
+                    <td class="mdl-data-table__cell--non-numeric">brunoot@cpdee.ufmg.br</td>
+                    <td>2519</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Carmela Maria Polito Braga</td>
+                    <td class="mdl-data-table__cell--non-numeric">carmela@cpdee.ufmg.br</td>
+                    <td>2603</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Cássio Gonçalves do Rego</td>
+                    <td class="mdl-data-table__cell--non-numeric">cassio@cpdee.ufmg.br</td>
+                    <td>2628</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Claúdio Dias Campos</td>
+                    <td class="mdl-data-table__cell--non-numeric">cdcampos@ufmg.br</td>
+                    <td>2404</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Fernando de Oliveira Souza</td>
+                    <td class="mdl-data-table__cell--non-numeric">fosouza@cpdee.ufmg.br</td>
+                    <td>2523</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Fernando José da Silva Moreira</td>
+                    <td class="mdl-data-table__cell--non-numeric">fernandomoreira@ufmg.br</td>
+                    <td>2629</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Frank Sill Torres</td>
+                    <td class="mdl-data-table__cell--non-numeric">franksill@ufmg.br</td>
+                    <td>2630</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Guilherme Vianna Raffo</td>
+                    <td class="mdl-data-table__cell--non-numeric">raffo@ufmg.br</td>
+                    <td>2525</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Hani Camille Yehia</td>
+                    <td class="mdl-data-table__cell--non-numeric">hani@cpdee.ufmg.br</td>
+                    <td>2610</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Hermes Aguiar Magalhães</td>
+                    <td class="mdl-data-table__cell--non-numeric">hermesam@gmail.com</td>
+                    <td>2626</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Hugo César Coelho Michel</td>
+                    <td class="mdl-data-table__cell--non-numeric">hugo.michel@cpdee.ufmg.br</td>
+                    <td>2517</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Janier Arias García</td>
+                    <td class="mdl-data-table__cell--non-numeric">janier.arias@cpdee.ufmg.br</td>
+                    <td>2601</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">José Luiz Silvino</td>
+                    <td class="mdl-data-table__cell--non-numeric">silvino@cpdee.ufmg.br</td>
+                    <td>2518</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Julio Cezar David de Melo</td>
+                    <td class="mdl-data-table__cell--non-numeric">demelo@cpdee.ufmg.br</td>
+                    <td>2625</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Lenin Martins Ferreira Morais</td>
+                    <td class="mdl-data-table__cell--non-numeric">lenin@cpdee.ufmg.br</td>
+                    <td>2619</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Leonardo Antônio Borges Tôrres</td>
+                    <td class="mdl-data-table__cell--non-numeric">torres@cpdee.ufmg.br</td>
+                    <td>2608</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Luciano   Cunha de  Araújo  Pimenta              </td>
+                    <td class="mdl-data-table__cell--non-numeric">lucpim@cpdee.ufmg.br</td>
+                    <td>2524</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Luciano de Errico</td>
+                    <td class="mdl-data-table__cell--non-numeric">l.errico@cpdee.ufmg.br</td>
+                    <td>2611</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Luis Antônio Aguirre</td>
+                    <td class="mdl-data-table__cell--non-numeric">aguirre@cpdee.ufmg.br</td>
+                    <td>2607</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Luiz Themystokliz Sanctos Mendes</td>
+                    <td class="mdl-data-table__cell--non-numeric">luizt@cpdee.ufmg.br</td>
+                    <td>2618</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Marco Aurélio de Souza Birchal</td>
+                    <td class="mdl-data-table__cell--non-numeric">mbirchal@gmail.com</td>
+                    <td>2404</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Marcos Antônio Severo Mendes</td>
+                    <td class="mdl-data-table__cell--non-numeric">marcoss@cpdee.ufmg.br</td>
+                    <td>2624</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Maria Auxiliadora Muanis Persechini</td>
+                    <td class="mdl-data-table__cell--non-numeric">dora@cpdee.ufmg.br</td>
+                    <td>2617</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Maurílio Nunes Vieira</td>
+                    <td class="mdl-data-table__cell--non-numeric">maurilionunesv@cpdee.ufmg.br</td>
+                    <td>2627</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Murilo Eugênio Duarte Gomes</td>
+                    <td class="mdl-data-table__cell--non-numeric">murilogomes@ufmg.br</td>
+                    <td>2602</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Patrícia Nascimento Pena</td>
+                    <td class="mdl-data-table__cell--non-numeric">ppena@ufmg.br</td>
+                    <td>2604</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Paulo Fernando Seixas</td>
+                    <td class="mdl-data-table__cell--non-numeric">paulos@cpdee.ufmg.br</td>
+                    <td>2620</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Pedro Francisco Donoso Garcia</td>
+                    <td class="mdl-data-table__cell--non-numeric">pedro@cpdee.ufmg.br</td>
+                    <td>2622</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Peterson de Resende</td>
+                    <td class="mdl-data-table__cell--non-numeric">peterson@ufmg.br</td>
+                    <td>LRC</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Porfírio Cabaleiro Cortizo</td>
+                    <td class="mdl-data-table__cell--non-numeric">porfirio@cpdee.ufmg.br</td>
+                    <td>2621</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Reinaldo Martinez Palhares</td>
+                    <td class="mdl-data-table__cell--non-numeric">rpalhares@ufmg.br</td>
+                    <td>2605</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Ricardo de Oliveira Duarte</td>
+                    <td class="mdl-data-table__cell--non-numeric">ricardoduarte@ufmg.br</td>
+                    <td>2521</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Seleme Isaac Seleme Jr.</td>
+                    <td class="mdl-data-table__cell--non-numeric">seleme@cpdee.ufmg.br</td>
+                    <td>3458</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Walmir Matos Caminhas</td>
+                    <td class="mdl-data-table__cell--non-numeric">caminhas@cpdee.ufmg.br</td>
+                    <td>2520</td>
+                  </tr>
+                  <p> </p>
+                  <p> </p>
+                </tbody>
+              </table>
+            </div>
+
+
+
+
+
+           
+    </section><!--/#about-->
+        
+
+        
+        </div>
+        <!--Section: Contact-->
+      </div>
+      </div>
+
+
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    
+    
+  </body>
+</html>
