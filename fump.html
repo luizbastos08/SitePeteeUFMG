@@ -1,0 +1,242 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site oficial do Programa de Educação Tutorial da UFMG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>PETEE UFMG</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style> 
+    <link rel="shortcut icon" href="images/logo_manual_oficial.png">   
+  </head>
+
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image-top" src="images/logo_vertical_antiga.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+           <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="manual_eletrica.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="curriculo_interativo.html">Currículo Interativo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
+              
+              <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                <a href=""><li class="mdl-menu__item">Matrícula</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Comprovação de Estudos</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Intercâmbio</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Monitoria/IC/Estágio</li></a>
+                <a href=""><li class="mdl-menu__item" href="aproveitamento.html">Aproveitamento de estudos</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Trancamento</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Seção de Ensino</li></a>
+                <a href=""><li class="mdl-menu__item" href="fump.html">FUMP/CEU</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Eventos</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Carteirinha de Estudante</li></a>
+                <a href=""><li class="mdl-menu__item" href="">Contato Professores</li></a>
+                <li disabled class="mdl-menu__item" href="">Salas</li>
+                <li disabled class="mdl-menu__item" href="">Mapas</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="manual_eletrica.html">Home</a>
+          <a class="mdl-navigation__link" href="curriculo_interativo.html">Currículo Interativo</a>
+          <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
+          <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+          <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
+          <a class="mdl-navigation__link" href="">Matrícula</a>
+          <a class="mdl-navigation__link" href="">Comprovação de Estudos</a>
+          <a class="mdl-navigation__link" href="">Intercâmbio</a>
+          <a class="mdl-navigation__link" href="">Monitoria/IC/Estágio</a>
+          <a class="mdl-navigation__link" href="aproveitamento.html">Aproveitamento de Estudos</a>
+          <a class="mdl-navigation__link" href="">Trancamento</a>
+          <a class="mdl-navigation__link" href="">Seção de Ensino</a>
+          <a class="mdl-navigation__link" href="fump.html">FUMP/CEU</a>
+          <a class="mdl-navigation__link" href="">Eventos</a>
+          <a class="mdl-navigation__link" href="">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="">Contato Professores</a>
+        </nav>
+      </div>
+
+      <div class="manual-content mdl-layout__content">
+        
+        
+        <section id="disciplinas" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">FUMP(Fundação Universitária Mendes Pimentel) </h2>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> A Fundação Universitária Mendes Pimentel (FUMP) é uma instituição controlada pela UFMG e tem como missão prestar assistência estudantil aos alunos da Universidade. Os benefícios e auxílios oferecidos pela Fump são para os estudantes de graduação de cursos presenciais da UFMG, que estejam matriculados, frequentes e que necessitem de algum apoio para se manter na Universidade. As assistências cedidas pela Fump são: </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Alimentação </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Moradia universitária </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Assistência à saúde </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Auxílio financeiro </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Acesso à informação digital </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Bolsas/estágios </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Acesso ao material acadêmico </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> -> Bolsa permanência </p>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Como ter acesso aos benefícios da Fump? </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Para ter acesso aos benefícios é necessário preencher um Questionário Socioeconômico, disponível em: </p>
+          <p class=" mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                   <a href="http://sinae.fump.ufmg.br/sinaeWeb/login.jsf">http://sinae.fump.ufmg.br/sinaeWeb/login.jsf</a>
+    </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Após responder o questionário, o aluno deve reunir alguns documentos específicos e levá-los à Fundação, para passar por um análise, triagem e, posteriormente uma entrevista com os assistentes da Fump. Para mais informações acesse o site da Fump: </p>
+          <p class=" mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                   <a href="http://www.fump.ufmg.br/">http://www.fump.ufmg.br/</a>
+    </p>
+    <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">RUs(Restaurantes Universitários) </h2>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> A Fump - Fundação Universitária Mendes Pimentel, fornece diversos tipos de assistência aos alunos da UFMG e tem em funcionamento o Programa de Alimentação. Esse programa tem como missão oferecer refeições de qualidade, com cardápio variado e balanceado para a comunidade interna e externa à Universidade. Para isso existem os Restaurantes Univeritários - RUs - refeitórios que trabalham com o sistema de bandejão. 
+  Ao todo, a Fump administra cinco RUs na UFMG, sendo dois no Campus Pampulha. </p>
+    <img src="images/manual/campuspampulha.png" style="padding-bottom: 60px; padding-top: 60px;">
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> O valor das refeições nos RUs varia segundo diversas categorias: </p>
+    
+         <div class="manual-table-mdl">
+                  <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">arrow_forwardt</i>Tabela de preços dos RUs</h2>
+                 <table class="mdl-typography--font-light mdl-typography--subhead mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                     <thead>
+                         <tr>
+                              <th class="mdl-data-table__cell--non-numeric">Classificação</th>
+                            <th>Preço</th>
+                         </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                           <td class="mdl-data-table__cell--non-numeric">Estudantes assistidos pela Fump - nível I</td>
+                             <td>Gratuito</td>
+                        </tr>
+                        <tr>
+                           <td class="mdl-data-table__cell--non-numeric">Estudantes assistidos pela Fump - níveis II e III</td>
+                           <td>R$1,00</td>
+                        </tr>
+                        <tr>
+                             <td class="mdl-data-table__cell--non-numeric">Adolescentes do convênio UFMG/Cruz Vermelha</td>
+                           <td>R$1,00</td>
+                        </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric">Estudantes assistidos pela Fump - nível IV-A</td>
+                              <td>R$2,00</td>
+                        </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric">Estudantes assistidos pela Fump - nível IV-B</td>
+                              <td>R$2,90</td>
+                        </tr>
+                              <tr>
+                           <td class="mdl-data-table__cell--non-numeric">Estudantes regularmente matriculados na UFMG e que não são assistidos pela Fump</td>
+                             <td>R$5,60</td>
+                        </tr>
+                          <tr>
+                           <td class="mdl-data-table__cell--non-numeric"> Servidores técnico-administrativos em educação e funcionários de fundações de apoio da UFMG</td>
+                           <td>R$6,00</td>
+                       </tr>
+                          <tr>
+                           <td class="mdl-data-table__cell--non-numeric">Servidores docentes e usuários especiais (obras e prestadores de serviço terceirizados)</td>
+                           <td>R$8,50</td>
+                       </tr>
+                          <tr>
+                           <td class="mdl-data-table__cell--non-numeric">Visitantes</td>
+                           <td>R$11,50</td>
+                       </tr>
+                     </tbody>
+                 </table>
+              </div>
+
+    <div style="padding-top: 40px;">          
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> Todos os usuários, exceto visitantes dos restaurantes universitários deverão, obrigatoriamente, apresentar a carteirinha do Sistema de Bibliotecas da UFMG e um documento oficial de identificação com foto, ou a carteirinha única. </p>
+    </div>
+    <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">CEU(Centro Esportivo Universitário) </h2>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> O CEU - Centro Esportivo Universitário - da UFMG é uma ótima opção de lazer e descanso para os alunos da Universidade. O CEU conta com piscinas, quadras de esportes e poliesportivas, cantina e vestiários e funciona de terça a sexta-feira, das 7:00 às 21:30 horas e aos sábados, domingos e feriados das 08:00 às 18:30 horas. </p>
+    <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> As carteirinhas têm o custo de R$10,00 e a valdade de um semestre. O pedido para confecção de carteirinhas é feito através de um formulário, disponível em: </p>
+          <p class=" mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                   <a href="https://www.ufmg.br/ceu/form30/confeccao_carteira/index">https://www.ufmg.br/ceu/form30/confeccao_carteira/index</a>
+    </p>
+    <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Mapa da Escola de Engenharia</h2>
+    <img src="images/manual/engenharia_mapa.jpg" style="padding-bottom: 60px; padding-top: 60px;">
+            </div>
+   </div>
+
+
+           
+    </section><!--/#about-->
+        
+
+        
+        </div>
+        <!--Section: Contact-->
+      </div>
+      </div>
+
+
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    
+    
+  </body>
+</html>
