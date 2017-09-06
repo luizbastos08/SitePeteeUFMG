@@ -181,7 +181,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/capa.jpg') center 100% no-repeat;
+  background: url('images/capa.png') center 100% no-repeat;
   background-size: 100% 100%;
 }
 
@@ -315,7 +315,7 @@ a img{
 .android-wear-section {
   position: relative;
   background-color: #eeeeee;
-  height: 800px;
+  height: 600px;
 }
 
 .android-wear-band {
@@ -549,6 +549,19 @@ a img{
 
 .contato-section {
   padding: 60px;
+}
+
+.petee-footer {
+  margin-top: 80px;
+  height: 80px;
+  width: 5000px;
+  background: #242a33;
+  background-size: cover;
+}
+
+.petee-footer-content {
+  margin-top: 15px;
+  margin-left: 55px;
 }
 
 .info {
