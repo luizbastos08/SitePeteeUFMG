@@ -1,0 +1,192 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site oficial do Programa de Educação Tutorial da UFMG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>PETEE UFMG</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style> 
+    <link rel="shortcut icon" href="images/logo_manual_oficial.png">   
+  </head>
+
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image-top" src="images/logo_vertical_antiga.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+           <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="manual_eletrica.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="curriculo_interativo.html">Currículo Interativo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
+              
+              <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                <a href="matricula.html"><li class="mdl-menu__item">Matrícula</li></a> 
+                <a href="comprovacaoconhecimento.html"><li class="mdl-menu__item">Comprovação de Estudos</li></a> 
+                <a href="intercambio.html"><li class="mdl-menu__item">Intercâmbio</li></a> 
+                <a href="monitoria.html"><li class="mdl-menu__item">Monitoria/IC/Estágio</li></a> 
+                <a href="aproveitamento.html"><li class="mdl-menu__item">Aproveitamento de estudos</li></a> 
+                <a href="trancamento.html"><li class="mdl-menu__item">Trancamento</li></a> 
+                <a href="secao_ensino.html"><li class="mdl-menu__item">Seção de Ensino</li></a> 
+                <a href="fump.html"><li class="mdl-menu__item">FUMP/CEU</li></a> 
+                <a href="eventos.html"><li class="mdl-menu__item">Eventos</li></a> 
+                <a href="carteiraestudante.html"><li class="mdl-menu__item">Carteirinha de Estudante</li></a> 
+                <a href="contatoprof.html"><li class="mdl-menu__item">Contato Professores</li></a> 
+                <a href=""><li disabled class="mdl-menu__item">Salas</li></a> 
+                <a href=""><li disabled class="mdl-menu__item">Mapas</li></a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="manual_eletrica.html">Home</a>
+          <a class="mdl-navigation__link" href="curriculo_interativo.html">Currículo Interativo</a>
+          <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
+          <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+          <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
+          <!-- <a class="mdl-navigation__link" href="integralizacao.html">Integralização</a> -->
+          <a class="mdl-navigation__link" href="matricula.html">Matrícula</a>
+          <a class="mdl-navigation__link" href="comprovacaoconhecimento.html  ">Comprovação de Estudos</a>
+          <a class="mdl-navigation__link" href="intercambio.html">Intercâmbio</a>
+          <a class="mdl-navigation__link" href="monitoria.html">Monitoria/IC/Estágio</a>
+          <a class="mdl-navigation__link" href="aproveitamento.html">Aproveitamento de Estudos</a>
+          <a class="mdl-navigation__link" href="trancamento.html">Trancamento</a>
+          <a class="mdl-navigation__link" href="secao_ensino.html">Seção de Ensino</a>
+          <a class="mdl-navigation__link" href="fump.html">FUMP/CEU</a>
+          <a class="mdl-navigation__link" href="eventos.html">Eventos</a>
+          <a class="mdl-navigation__link" href="carteiraestudante.html">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="contatoprof.html">Contato Professores</a>
+        </nav>
+      </div>
+
+      <div class="manual-content mdl-layout__content">
+        
+        
+        <section id="disciplinas" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Monitorias/IC/Estágio</h2>
+                <h3 class="mdl-typography--text-left  mdl-typography--subheading-1">Monitorias:</h3>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Diversas disciplinas durante o curso oferecem ao aluno a oportunidade de auxílio fora da sala de aula com os programas de monitoria. Neles é possível contar com a ajuda de um monitor, um aluno que já foi aprovado na matéria, para ajudar e tirar dúvidas de qualquer problema que aparecer durante os estudos.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Os horários das monitorias dependem da disciplina e da demanda. Geralmente, as mais requisitadas têm maior disponibilidade de monitor. O mais indicado ao aluno é perguntar quais são esses horários ao professor de cada matéria.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Para se tornar um monitor é necessário que o aluno tenha sido aprovado na disciplina desejada com certo êxito (pode-se ou não exigir uma nota mínima). Também é exigido que o RSG (Rendimento Semestral Global) do semestre anterior seja igual ou superior a 2, portanto, alunos do primeiro período não podem se candidatar. Por fim, os interessados passarão por um exame de comprovação de conhecimento, relacionado à disciplina, onde serão selecionados de acordo com a média obtida.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Cabe ao interessado em se tornar um monitor ficar atento ao lançamento de editais, divulgados pelo colegiado na lista da elétrica, em seu e-mail. Também é importante consultar o site da PROGRAD (Pró Reitoria de Graduação) <a href="https://www2.ufmg.br/prograd"> https://www2.ufmg.br/prograd</a>, pois nele é possível ter informações como a cota de bolsas disponíveis para o ano.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">O aluno que cumprir um programa de monitoria por no mínimo um semestre poderá pleitear a integralização de até um crédito. Para isso, deverá procurar o colegiado do curso e apresentar os seguintes itens:</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Plano de trabalho aprovado previamente pelo Colegiado de Curso;</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Relatório conclusivo, elaborado pelo aluno, sobre as atividades desenvolvidas no Projeto, devidamente analisado e aprovado pelo professor orientador;</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Avaliação das atividades desenvolvidas pelo orientador, com atribuição de nota e conceito.</p>
+				<h3 class="mdl-typography--text-left  mdl-typography--subheading-1">ICs:</h3>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">A iniciação científica é uma modalidade de pesquisa acadêmica desenvolvida pelos próprios alunos de graduação orientados por um tutor. Como o próprio nome diz, não deve ser necessária experiência prática para participar de uma IC, uma vez que nela será apresentada a oportunidade de iniciar sua busca por conhecimento prático.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Atuar em um projeto de iniciação Científica é de fundamental importância para a completa formação do aluno como engenheiro, uma vez que nele adquirem-se conhecimentos essenciais que não se obtém em sala de aula. Em geral, os diversos programas oferecidos têm o objetivo de iniciar o aluno na produção de conhecimento e na convivência cotidiana com o procedimento cientifico, assim como estimular a descoberta de inovações tecnológicas. É oferecida ao aluno a oportunidade de desenvolver a escrita acadêmica, apresentar resultados em eventos, aprender a sistematizar ideias, a sintetizar observações ou experiências, elaborar relatórios e demais atividades envolvendo o ofício de pesquisador.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Os programas de Iniciação Científica oferecidos na UFMG geralmente requerem uma carga horária mínima, mas oferecem ao aluno a oportunidade de montar um horário flexível que se encaixe na sua grade de matérias. Dessa forma, não é necessário se preocupar se atuar em um projeto o impedirá de cumprir as disciplinas do curso.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Querendo o aluno ingressar em uma IC, cabe ao próprio ir atrás daquelas que lhe interessam. Uma das principais formas de conseguir uma vaga é procurar professoresque atuam em projetos e, literalmente, pedir para participar. É importante também se manter sempre atento aos editais que são liberados durante o ano. Estes são amplamente divulgados pelo colegiado na lista da elétrica. Portanto, deve-se manter o e-mail vinculado ao colegiado sempre atualizado. Essas vagas oferecidas são ofertadas inicialmente à Central de Oportunidades, portanto é interessante ficar atento ao site <a href="https://centraloportunidades.eng.ufmg.br/site/index.php"> https://centraloportunidades.eng.ufmg.br/site/index.php </a>. Na seção “bolsas” estão dispostos os editais de IC disponíveis.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">O aluno que participar de uma iniciação científica por no mínimo um ano pode procurar o colegiado do curso e pedir a integralização de 2 créditos em atividades de formação complementar. Se forem cumpridos dois projetos, o estudante, além de receber os créditos referidos, pode ainda atribuir mais 1 crédito pela mesma formação. Para realizar esses procedimentos, no entanto, são exigidas as documentações abaixo:</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Formulário de indicação do bolsista assinado pelo orientador, indicando órgão de fomento financiador da bolsa ou plano de trabalho aprovado previamente pelo Colegiado de Curso, para os casos de programas sem bolsa;</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Monografia desenvolvida pelo aluno detalhando as atividades técnicas realizadas, sua relevância e justificativas técnicas, metodologia de trabalho e principais resultados, devidamente aprovada por seu orientador;</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Avaliação das atividades desenvolvidas pelo orientador, com atribuição de nota e conceito;</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast"> - Comprovante de apresentação do trabalho desenvolvido em uma Mostra de Trabalhos de Iniciação Científica, como por exemplo, a Semana de Graduação da UFMG.</p>
+				<h3 class="mdl-typography--text-left  mdl-typography--subheading-1">Estágios:</h3>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">O estágio é uma importante forma de aprimoramento profissional do estudante, pois possibilita um contato empírico com as matérias teóricas que lhe são passadas em sala de aula, fazendo assim o gancho entre teoria e prática, importantes para qualquer engenheiro.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Todos os alunos deverão cumprir o estágio curricular obrigatório (EC), este se encaixa na grade curricular do curso e deve ser feito após a integralização de, pelo menos, 1800 horas (120 créditos). Sendo assim, sua realização está prevista a partir do 8º período.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">O estágio obrigatório deve ter duração de, no mínimo, 195 horas. Sendo que, dessas, 15 horas são relacionadas a atividades de acompanhamento em sala de aula e o restante, 180 horas, ao estágio em si. No entanto, essa carga horária deve ser cumprida obrigatoriamente em mais de 2 meses. Com isso, após seu término o aluno terá conseguido obter 13 créditos.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">É oferecida ainda a possibilidade de cumprimento do estágio com atividades de extensão, mediante a participação do estudante em empreendimentos e projetos de interesse social, desde que essas atividades tenham possuído a carga horária mínima (180 horas) e se encaixem com os pré-requisitos do EC. Projetos de iniciação cientifica, acadêmicos (como o PET) e monitorias não são contados para isso.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">O aluno pode ainda realizar o estágio não obrigatório. Este entra no âmbito das atividades de formação complementar. Para isto, no entanto, é necessário já ter sido aprovado em todas as disciplinas do 1º ao 4º período, ou ter cumprido 91 créditos e ter rendimento semestral global (RSG) maior ou igual a 2. Como formação complementar é possível aproveitar até 2 créditos por esta atividade.</p>
+				<h3 class="mdl-typography--text-left  mdl-typography--subheading-1">Central de Oportunidades:</h3>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Quem deseja iniciar um estágio, seja obrigatório ou não, deve ficar atento às oportunidades divulgadas muitas vezes pelo colegiado do curso. Diversos editais são abertos durante o ano. Cabe, então, ao aluno encontrar o que lhe interessa e participar do processo seletivo. Outra ferramenta importante para a busca é a Central de Oportunidades.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">A Central é o setor responsável pela divulgação de bolsas de graduação, como monitorias e iniciação científica, bem como pela captação, análise e divulgação de vagas de estágio para alunos dos cursos de Engenharia e de emprego para os ex-alunos da instituição. Ela incentiva ações que reforçam o vínculo e compromisso do setor com a colocação dos alunos da graduação e dos já formados no mercado de trabalho. Sendo o setor responsável por todo o controle de estágios da Escola de Engenharia da UFMG é a partir dela que os documentos são administrados e encaminhados para assinaturas.</p>
+				<p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Portanto, para ingressar num estágio o estudante deve inicialmente procurar a Central, pegar e levar os documentos necessários. Estes documentos são disponibilizados no site <a href="https://centraloportunidades.eng.ufmg.br/site/index.php"> https://centraloportunidades.eng.ufmg.br/site/index.php.</a> Nele também há uma seção de dúvidas frequentes, onde é possível esclarecer pontos sobre prazos, documentações, carga horária, etc. Para mais informações, procure a sala da central, cujo número e horários de atendimento também são disponibilizados no site acima.</p>
+            </div>
+   </div>
+	</section><!--/#about-->
+        
+    <div class="petee-footer mdl-mini-footer__left-section">
+              <div class="mdl-logo petee-footer-content">&copy; 2017 PETEE UFMG</div> -->
+              <!-- MDL Footer link-list -->
+                <ul class="mdl-mini-footer__link-list petee-footer-content">
+                  <li><a href="https://www.facebook.com/peteeUFMG?ref=ts&fref=ts"><img src="images/facebook.png"></a></li>
+                  <li><a href="https://www.instagram.com/petee.ufmg/"><img src="images/instagram.png"></a></li>
+                  <li><a href="https://www.youtube.com/channel/UCwyWA8kHfFoJq6nnlEeC3xw"><img src="images/youtube-play.png"></a></li>
+                </ul>
+    </div>
+        
+        </div>
+        <!--Section: Contact-->
+      </div>
+      </div>
+
+
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    
+    
+  </body>
+</html>
